@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(71, 71, 71);
+}
+
+header{
+    padding: 40px 0px 10px 0px;
+    position: relative;
+}
+
+header> h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    position: relative;
+    color: lightgray;
+}
+
+header> h1> span{
+    border: 2px white solid;
+    border-radius: 15px;
+    padding: 0px 10px;
+    color:lightgray;
+}
+
+.add-item{
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.input{
+    border: none;
+    border-radius: 25px;
+    outline: none;
+    padding: 10px;
+    margin: 0px 10px 0px 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 250px;
+    font-size: 15px;
+    color: black;
+}
+
+.addbutton{
+    border: none;
+    border-radius: 50%;
+    outline: none;
+    padding: 10px 15px;
+}
+
+.addbutton:hover{
+    cursor: pointer;
+    background-color: rgb(165, 164, 164);
+}
+
+.container{
+    text-align: center;
+    align-content: center;
+}
+
+.item{
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    color: black;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 250px;
+}
+
+.modifybutton{
+    padding: 5px;
+    border: 2px lightgray solid;
+    border-radius: 10px;
+    background-color: rgb(71, 71, 71);
+    color: lightgray;
+    margin: 0px 5px;
+}
+
+.modifybutton:hover{
+    cursor: pointer;
+    color: black;
+    background-color: lightgray;
+}
